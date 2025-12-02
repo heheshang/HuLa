@@ -6,13 +6,13 @@
     "includes": [
       "**/*.{js,jsx,ts,tsx,vue,json}",
       "!.*",
+      "!.claude/*",
       "!public/*",
       "!src/typings/*.d.ts",
       "!src-tauri/*",
       "!node_modules/*",
       "!tauri-plugin-hula/*",
-      "!dist/*",
-      "!src-tauri/gen/schemas"
+      "!dist/*"
     ]
   },
   "formatter": {
